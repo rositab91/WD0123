@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Calcolatrice</title>
+</head>
+
+<body>
+    <h1>La mia calcolatrice in JS</h1>
+
+    <div class="calcolatrice">
+        <input id="result" type="text">
+        <div>
+            <button id="1" onclick="thisButton(this)">1</button>
+            <button id="2" onclick="thisButton(this)">2</button>
+            <button id="3" onclick="thisButton(this)">3</button>
+            <button id="/" onclick="thisButton(this)">/</button>
+        </div>
+        <div>
+            <button id="4" onclick="thisButton(this)">4</button>
+            <button id="5" onclick="thisButton(this)">5</button>
+            <button id="6" onclick="thisButton(this)">6</button>
+            <button id="*" onclick="thisButton(this)">x</button>
+        </div>
+        <div>
+            <button id="7" onclick="thisButton(this)">7</button>
+            <button id="8" onclick="thisButton(this)">8</button>
+            <button id="9" onclick="thisButton(this)">9</button>
+            <button id="-" onclick="thisButton(this)">-</button>
+        </div>
+        <div>
+            <button id="C" onclick="resetCalcolatrice()">C</button>
+            <button id="0" onclick="thisButton(this)">0</button>
+            <button id="." onclick="thisButton(this)">.</button>
+            <button id="+" onclick="thisButton(this)">+</button>
+        </div>
+        <div>
+            <button id="=" class="uguale" onclick="totale()">=</button>
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/script.js"> </script>
+
+    <div>
+        <p>&copy; 2023 Rosita Bongiovanni <img class="img"
+                src="https://www.sparklers-club.com/ressources/produits/59668-2-radiant-butterfly-pink-holographic.jpg"
+                alt="immagine farfalla"></p>
+    </div>
+</body>
+
+</html>

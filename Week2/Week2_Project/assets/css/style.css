@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+html,
+body {
+    width: 100%;
+    padding-top: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://downloadwap.com/thumbs2/wallpapers/p2ls/2019/patterns/43/a83d3e7613069702.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    font-size: 4em;
+    color: white;
+}
+
+.calcolatrice {
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+    border-radius: 3em;
+    border-style: groove;
+    border-width: 1em;
+    border-color: purple;
+    background-position: center;
+    background-color: rgb(19, 3, 19);
+    margin-bottom: 8em;
+    background-image: url(http://www.tiraccontounastoriablog.com/wp/wp-content/uploads/2017/07/Farfalla.png);
+    background-size: cover;
+}
+
+button {
+    width: 2.7em;
+    height: 2.7em;
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: plum;
+    border-color: purple;
+    border-radius: 0.6em;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+}
+
+.uguale {
+    width: 8em;
+    margin-top: 10px;
+}
+
+input {
+    padding: 2em 2em 2em 2em;
+    font-size: 1.5em;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2em;
+    border-width: 1em;
+    border-radius: 0.5em;
+    border-color: purple;
+}
+
+p {
+    color: white;
+}
+
+.img {
+    width: 1.5em;
+}
