@@ -1,5 +1,5 @@
 function resetCalcolatrice() {
-    let result = document.getElementById("result")
+    let result = document.getElementById("result");
     result.value = ''
 }
 
@@ -9,9 +9,7 @@ function totale() {
 
 
 function thisButton(button) {
-    let result = document.getElementById("result")
+    let result = document.getElementById("result");
     let num = button.id;
-    result.value += num
+    result.value += num;
 }
-
-
